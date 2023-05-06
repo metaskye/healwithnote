@@ -1,0 +1,257 @@
+body {
+  background-color: #136133;
+  max-width: 1000px;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(227, 227, 227);
+  text-align: center;
+  font-family: 'Ysabeau', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;    
+}
+
+h3 {
+  color: rgb(227, 227, 227);      
+  text-align: left;    
+  font-family: 'Domine', serif;  
+  text-decoration: none;
+  line-height: 200%;
+}
+
+h4 {    
+  color: rgb(227, 227, 227);      
+  text-align: center;    
+  font-family: 'Ysabeau', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;  
+}
+
+p {
+  color: rgb(227, 227, 227);      
+  text-align: justify;    
+  font-family: 'Domine', serif;  
+  text-decoration: none;
+  line-height: 150%;
+}
+
+ul {
+  color: rgb(227, 227, 227);      
+  text-align: justify;    
+  font-family: 'Domine', serif;  
+  text-decoration: none;
+  line-height: 150%;
+}
+
+hr {
+  position: relative;
+  border-top: 20px double #165c35;
+  border-bottom: #136133;
+  border-left: #136133;
+  border-right: #136133;
+  width: 100%;
+}
+
+#div-main {
+  padding: 30px 50px 30px 50px;
+  text-align: center;
+}
+
+#div-nav  {
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+}
+
+#div-img {
+  text-align: left;
+}
+
+#div-txt {
+  text-align: justify;
+}
+
+#nav {
+  display: inline-block;
+  width: 100%;
+  margin: auto;  
+  height: 200px;
+  background-size: 640px 200px;
+  border-right: 2px solid  #136133;
+  text-align: center;
+}
+
+#nav-home {
+  display: inline-block;
+  width: 15%;
+  height: 50px;
+  border: 2px solid  #136133;
+  text-align: center;
+  margin: 0px auto;
+}
+
+#nav-therapy {
+  display: inline-block;
+  width: 15%;
+  height: 50px;
+  border: 2px solid  #136133;
+  text-align: center;
+  margin: 0px auto;
+}
+
+#nav-booking {
+  display: inline-block;
+  width: 15%;
+  height: 50px;
+  border: 2px solid  #136133;
+  text-align: center;
+  margin: 0px auto;
+
+}
+
+#nav-about {
+  display: inline-block;
+  width: 15%;
+  height: 50px;
+  border: 2px solid  #136133;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.main-container {
+  background-size: 640px 200px;
+  display: inline-block;
+  width: 100%;
+  margin: auto;  
+  text-align: center;
+  position: relative;
+  padding: 20px 0px 0px 0px;
+}
+
+.main-txt {
+  display: block;
+  width: 48%;
+  margin: 0px auto;
+  text-align: left;
+  margin: 0px auto;
+  float: left;
+  color: rgb(227, 227, 227);      
+  text-align: justify;    
+  font-family: 'Domine', serif;  
+  text-decoration: none;
+  line-height: 150%;
+}
+
+#home-img {
+  display: block;
+  width: 48%;
+  height: 400px;
+  margin: auto;  
+  margin: 5px auto;
+  float: right;
+  background-image: url(./Assets/Images/home-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#about-img {
+  display: block;
+  width: 48%;
+  height: 700px;
+  margin: auto;  
+  margin: 5px auto;
+  float: right;
+  background-image: url(./Assets/Images/portrait.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#therapy-txt {
+  display: inline-block;
+  width: 75%;
+  margin: 0px auto;
+  text-align: left;
+  margin: 0px auto;
+  color: rgb(227, 227, 227);      
+  text-align: justify;    
+  font-family: 'Domine', serif;  
+  text-decoration: none;
+  line-height: 150%;
+}
+
+#therapy-txt-right {
+  display: block;
+  width: 48%;
+  margin: 0px auto;
+  text-align: left;
+  margin: 0px auto;
+  float: right;
+  color: rgb(227, 227, 227);      
+  text-align: justify;    
+  font-family: 'Domine', serif;  
+  text-decoration: none;
+  line-height: 150%;
+}
+
+a:link{
+  color: rgb(248, 248, 248);
+  text-align: center;
+  font-family: 'Ysabeau', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(213, 212, 212);
+      
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(138, 138, 138);
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  font-family: 'Domine', serif; 
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  font-family: 'Domine', serif; 
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contact-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
